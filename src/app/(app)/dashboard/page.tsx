@@ -1,9 +1,11 @@
 import { Topbar } from "@/components/layout/Topbar";
 import { StatCard } from "@/components/ui/StatCard";
+import { Button } from "@/components/ui/Button";
+import { Card, CardHeader } from "@/components/ui/Card";
 
 export default function DashboardPage() {
   return (
-    <div className="space-y-8">
+    <div className="space-y-8 animate-fade-in">
       <Topbar title="Overview" />
 
       <div className="grid gap-6 md:grid-cols-3">
@@ -13,40 +15,36 @@ export default function DashboardPage() {
       </div>
 
       <div className="grid gap-6 lg:grid-cols-3">
-        <div className="rounded-xl border border-neutral-border bg-neutral-surface p-6 shadow-soft lg:col-span-2">
-          <div className="text-xs uppercase tracking-wide text-neutral-textMuted">
-            Activity Stream
-          </div>
-          <div className="mt-4 space-y-4 text-sm">
+        <Card className="lg:col-span-2">
+          <CardHeader title="Activity Stream" subtitle="Real-time events from your agent fleet" />
+          <div className="mt-4 space-y-4">
             {[
               ["✅ Azure OpenAI connected", "2m ago"],
               ["⚙️ Next.js console initialized", "12m ago"],
               ["📌 Agents synced", "1h ago"],
-            ].map(([msg, time]) => (
-              <div key={msg} className="flex items-center justify-between border-b border-neutral-border pb-3 last:border-none">
-                <span>{msg}</span>
-                <span className="text-xs text-neutral-textMuted">{time}</span>
+            ].map(([msg, time], i) => (
+              <div key={i} className="flex items-center justify-between border-b border-border pb-3 last:border-none hover:bg-surfaceHighlight/50 p-2 rounded transition-colors cursor-default">
+                <span className="text-sm font-medium">{msg}</span>
+                <span className="text-xs text-muted font-mono">{time}</span>
               </div>
             ))}
           </div>
-        </div>
+        </Card>
 
-        <div className="rounded-xl border border-neutral-border bg-neutral-surface p-6 shadow-soft">
-          <div className="text-xs uppercase tracking-wide text-neutral-textMuted">
-            Quick Actions
+        <Card>
+          <CardHeader title="Quick Actions" />
+          <div className="grid gap-3">
+            <Button variant="primary" className="w-full justify-start">
+              <span className="mr-2">+</span> New Task
+            </Button>
+            <Button variant="outline" className="w-full justify-start">
+              <span className="mr-2">👤</span> Invite Member
+            </Button>
+            <Button variant="ghost" className="w-full justify-start text-muted hover:text-foreground">
+              <span className="mr-2">📄</span> View Logs
+            </Button>
           </div>
-          <div className="mt-4 grid gap-3">
-            <button className="rounded-lg bg-brand-600 px-4 py-2 text-white text-sm shadow-soft hover:bg-brand-500">
-              New Task
-            </button>
-            <button className="rounded-lg border border-neutral-border px-4 py-2 text-sm">
-              Invite Member
-            </button>
-            <button className="rounded-lg border border-neutral-border px-4 py-2 text-sm">
-              View Logs
-            </button>
-          </div>
-        </div>
+        </Card>
       </div>
     </div>
   );

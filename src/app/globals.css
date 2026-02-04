@@ -6,42 +6,38 @@
   color-scheme: dark;
 }
 
-html, body {
-  height: 100%;
-}
-
 body {
-  background: #0B0F19;
-  color: #E5E7EB;
-  font-family: Inter, sans-serif;
+  background-color: #09090b; /* bg-background */
+  color: #fafafa; /* text-foreground */
+  font-feature-settings: "rlig" 1, "calt" 1;
+  -webkit-font-smoothing: antialiased;
 }
 
-* {
-  border-color: #273043;
+/* Scrollbar polish */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #09090b;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46;
 }
 
-.container-max {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 80rem;
-  padding: 0 1.5rem;
+/* Glass utilities */
+.glass {
+  background: rgba(24, 24, 27, 0.6);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-.card {
-  border-radius: 16px;
-  background: #111827;
-  border: 1px solid #273043;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-}
-
-.subtle {
-  color: #9CA3AF;
-}
-
-.pill {
-  border-radius: 9999px;
-  padding: 0.25rem 0.75rem;
-  font-size: 0.75rem;
-  border: 1px solid #273043;
-  background: #1F2937;
+.glass-card {
+  background: linear-gradient(180deg, rgba(39, 39, 42, 0.4) 0%, rgba(24, 24, 27, 0.4) 100%);
+  border: 1px solid #27272a;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
