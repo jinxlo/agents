@@ -1,0 +1,188 @@
+[
+  {
+    "id": "adrian-cross",
+    "name": "Adrian Cross",
+    "role": "Chief of Strategy",
+    "status": "online"
+  },
+  {
+    "id": "ava-sinclair",
+    "name": "Ava Sinclair",
+    "role": "Brand & Creative",
+    "status": "online"
+  },
+  {
+    "id": "caleb-ross",
+    "name": "Caleb Ross",
+    "role": "Frontend Lead",
+    "status": "online"
+  },
+  {
+    "id": "carla-mendes",
+    "name": "Carla Mendes",
+    "role": "Market Research",
+    "status": "online"
+  },
+  {
+    "id": "derek-lin",
+    "name": "Derek Lin",
+    "role": "Partnerships",
+    "status": "online"
+  },
+  {
+    "id": "dr.-elias-brooks",
+    "name": "Dr. Elias Brooks",
+    "role": "AI Lead",
+    "status": "online"
+  },
+  {
+    "id": "elena-ruiz",
+    "name": "Elena Ruiz",
+    "role": "Finance Lead",
+    "status": "online"
+  },
+  {
+    "id": "ethan-brooks",
+    "name": "Ethan Brooks",
+    "role": "Performance Marketing",
+    "status": "online"
+  },
+  {
+    "id": "geoffry",
+    "name": "Geoffry",
+    "role": "CEO/COO Brain (Orchestrator)",
+    "status": "online"
+  },
+  {
+    "id": "grace-turner",
+    "name": "Grace Turner",
+    "role": "Customer Success",
+    "status": "online"
+  },
+  {
+    "id": "hannah-vale",
+    "name": "Hannah Vale",
+    "role": "Growth Lead",
+    "status": "online"
+  },
+  {
+    "id": "isabel-ward",
+    "name": "Isabel Ward",
+    "role": "Operations",
+    "status": "online"
+  },
+  {
+    "id": "ivy-morgan",
+    "name": "Ivy Morgan",
+    "role": "Frontend Engineer",
+    "status": "online"
+  },
+  {
+    "id": "jenna-cole",
+    "name": "Jenna Cole",
+    "role": "Security Engineer",
+    "status": "online"
+  },
+  {
+    "id": "julian-price",
+    "name": "Julian Price",
+    "role": "Content & Social",
+    "status": "online"
+  },
+  {
+    "id": "leo-hart",
+    "name": "Leo Hart",
+    "role": "Agent",
+    "status": "online"
+  },
+  {
+    "id": "lucas-reed",
+    "name": "Lucas Reed",
+    "role": "Content Marketing Manager",
+    "status": "online"
+  },
+  {
+    "id": "marcus-vail",
+    "name": "Marcus Vail",
+    "role": "Legal / Compliance",
+    "status": "online"
+  },
+  {
+    "id": "maya-chen",
+    "name": "Maya Chen",
+    "role": "UX Lead",
+    "status": "online"
+  },
+  {
+    "id": "mia-torres",
+    "name": "Mia Torres",
+    "role": "Social Media Lead",
+    "status": "online"
+  },
+  {
+    "id": "miles-foster",
+    "name": "Miles Foster",
+    "role": "QA / Testing",
+    "status": "online"
+  },
+  {
+    "id": "nina-blake",
+    "name": "Nina Blake",
+    "role": "PMO",
+    "status": "online"
+  },
+  {
+    "id": "noah-reed",
+    "name": "Noah Reed",
+    "role": "Prompt / Agent Engineer",
+    "status": "online"
+  },
+  {
+    "id": "olivia-grant",
+    "name": "Olivia Grant",
+    "role": "Marketing Director",
+    "status": "online"
+  },
+  {
+    "id": "owen-park",
+    "name": "Owen Park",
+    "role": "Data Engineer",
+    "status": "online"
+  },
+  {
+    "id": "priya-nair",
+    "name": "Priya Nair",
+    "role": "DevOps / SRE",
+    "status": "online"
+  },
+  {
+    "id": "rina-solis",
+    "name": "Rina Solis",
+    "role": "ML Engineer",
+    "status": "online"
+  },
+  {
+    "id": "simon-hale",
+    "name": "Simon Hale",
+    "role": "Product Marketing",
+    "status": "online"
+  },
+  {
+    "id": "sofia-patel",
+    "name": "Sofia Patel",
+    "role": "Head of Product",
+    "status": "online"
+  },
+  {
+    "id": "victor-hale",
+    "name": "Victor Hale",
+    "role": "Backend Lead",
+    "status": "online"
+  },
+  {
+    "id": "zara-kim",
+    "name": "Zara Kim",
+    "role": "Mobile Engineer",
+    "status": "online"
+  }
+]
