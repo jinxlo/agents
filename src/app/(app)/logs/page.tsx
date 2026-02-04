@@ -2,9 +2,9 @@ import { Topbar } from "@/components/layout/Topbar";
 
 export default function LogsPage() {
   return (
-    <div className="space-y-6">
+    <div className="space-y-8">
       <Topbar title="Logs" />
-      <div className="card p-4 font-mono text-xs text-neutral-textMuted">
+      <div className="rounded-xl border border-neutral-border bg-neutral-surface p-6 shadow-soft font-mono text-xs text-neutral-textMuted">
         <div>[18:12] Gateway started</div>
         <div>[18:14] Telegram updates polling</div>
         <div>[18:20] Azure OpenAI authenticated</div>
