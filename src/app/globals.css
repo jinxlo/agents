@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #0B0F19;
+  color: #E5E7EB;
+  font-family: Inter, sans-serif;
+}
+
+* {
+  border-color: #273043;
+}
+
+.container-max {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 80rem;
+  padding: 0 1.5rem;
+}
+
+.card {
+  border-radius: 16px;
+  background: #111827;
+  border: 1px solid #273043;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.subtle {
+  color: #9CA3AF;
+}
+
+.pill {
+  border-radius: 9999px;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+  border: 1px solid #273043;
+  background: #1F2937;
+}
